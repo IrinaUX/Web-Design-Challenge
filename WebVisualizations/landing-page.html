@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 
-<!-- CSS Stylesheets with Relative Paths -->
 <!-- """
 A [landing page](#landing-page) containing:
   * An explanation of the project.
@@ -9,40 +8,52 @@ A [landing page](#landing-page) containing:
     and clicking an image should take the user to that visualization.
 """ -->
 
-<html lang="en-us">
-<head>
-  <meta charset="UTF-8">
-  <title>CSS Stylesheets with Relative Paths</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
-</head>
+<!-- Bring in our bootstrap stylesheet -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-<body>
+<!-- Navigation bar - responsive -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Weather</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="/Web-Design-Challenge/WebVisualizations/landing-page.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/Web-Design-Challenge/WebVisualizations/data-page.html">Data set</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/Web-Design-Challenge/WebVisualizations/comparisons-page.html">Analysis</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/Web-Design-Challenge/WebVisualizations/visualization-page1.html">Vis1</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/Web-Design-Challenge/WebVisualizations/visualization-page2.html">Vis2</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/Web-Design-Challenge/WebVisualizations/visualization-page3.html">Vis3</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/Web-Design-Challenge/WebVisualizations/visualization-page4.html">Vis4</a>
+      </li>
+    </ul>
+  </div>
+</nav>
 
-  <header>
-    <h1>Welcome to the Weather app webpage</h1>
-  </header>
+<!-- Section main page -->
 
-  <main class="container">
-    <section id="main-bio">
-      <section id="figure">
-        <h2 id="bio-name">Your Name</h2>
-        <img id="bio-image" src="https://placehold.it/200x200" alt="Your Name">
-      </section>
-      <p>
-         <a href="/Web-Design-Challenge/WebVisualizations/data-page.html">data-page</a>
-      </p>
-    </section>
+<!-- <div class="card">
+  <h5 class="card-header">Home</h5>
+  <div class="card-body">
+    <h5 class="card-title">Precipitation data</h5>
+    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div> -->
 
-    <aside id="contact-info">
-      <h2>Contact Info</h2>
-      <ul>
-        <li><strong>Email:</strong> <a href="#">someplace@gmail.com</a></li>
-        <li><strong>Github:</strong> <a href="#">sampleName</a></li>
-        <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
-      </ul>
-    </aside>
-  </main>
-
-</body>
 
 </html>
