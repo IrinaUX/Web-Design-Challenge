@@ -6,43 +6,55 @@
   * A descriptive title and heading tag.
   * The plot/visualization itself for the selected comparison.
   * A paragraph describing the plot and its significance.
-""" -->
+  """ -->
 
-<html lang="en-us">
-<head>
-  <meta charset="UTF-8">
-  <title>CSS Stylesheets with Relative Paths</title>
+  <html lang="en-us">
 
-  <!-- This line is money! It points your HTML to the CSS file. -->
-  <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
-  <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-
-<body>
-
-  <header>
-    <h1>Student Bio</h1>
-  </header>
-
-  <main class="container">
-    <section id="main-bio">
-      <section id="figure">
-        <h2 id="bio-name">Your Name</h2>
-        <img id="bio-image" src="https://placehold.it/200x200" alt="Your Name">
-      </section>
-      <p>Write a short paragraph or two about yourself, or use placeholder text from <a href="http://www.lipsum.com/">www.lipsum.com</a></p>
-    </section>
-
-    <aside id="contact-info">
-      <h2>Contact Info</h2>
-      <ul>
-        <li><strong>Email:</strong> <a href="#">someplace@gmail.com</a></li>
-        <li><strong>Github:</strong> <a href="#">sampleName</a></li>
-        <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
-      </ul>
-    </aside>
-  </main>
-
-</body>
+    <!-- Bring in our bootstrap stylesheet -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <!-- Navigation bar - responsive -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Weather</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="/Web-Design-Challenge/WebVisualizations/landing-page.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/Web-Design-Challenge/WebVisualizations/data-page.html">Data set<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/Web-Design-Challenge/WebVisualizations/comparisons-page.html">Comparison</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/Web-Design-Challenge/WebVisualizations/visualization-page1.html">Vis1</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="/Web-Design-Challenge/WebVisualizations/visualization-page2.html">Vis2</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/Web-Design-Challenge/WebVisualizations/visualization-page3.html">Vis3</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/Web-Design-Challenge/WebVisualizations/visualization-page4.html">Vis4</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    
+    <!-- Section main page -->
+    <head>
+      <title>Vis2</title>
+        <h1>Vis2
+          <link rel="stylesheet" href="styles.css">
+        </h1>
+      <!-- <h3 class="header">Welcome</h3> -->
+    </head>
+    
+    
 
 </html>

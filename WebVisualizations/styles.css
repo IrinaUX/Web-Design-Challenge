@@ -1,0 +1,16 @@
+
+h1 {
+    /* background-color: rgb(12, 89, 84); */
+    color: rgb(185, 211, 41);
+    font-size: 30px;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+
+.header {
+    padding-left: 40px;
+    padding-top: 20px;
+}
