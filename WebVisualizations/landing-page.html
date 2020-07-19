@@ -13,32 +13,45 @@ A [landing page](#landing-page) containing:
 
 <!-- Navigation bar - responsive -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Weather</a>
+  <a class="navbar-brand" href="landing-page.html">Weather</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+    <span class="navbar-toggler-icon">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="nav-link" href="/Web-Design-Challenge/WebVisualizations/landing-page.html">Home</a>
+            </div>
+          </li>
+        
+        </ul>
+      </div>
+    </span>
   </button>
+
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="/Web-Design-Challenge/WebVisualizations/landing-page.html">Home<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/Web-Design-Challenge/WebVisualizations/data-page.html">Data set</a>
+        <a class="nav-link" href="data-page.html">Data set</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/Web-Design-Challenge/WebVisualizations/comparisons-page.html">Comparison</a>
+        <!-- <a class="nav-link" href="/Web-Design-Challenge/WebVisualizations/comparisons-page.html">Comparison</a> -->
+        <a class="nav-link" href="comparisons-page.html">Comparison</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/Web-Design-Challenge/WebVisualizations/visualization-page1.html">Vis1</a>
+        <a class="nav-link" href="visualization-page1.html">Vis1</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/Web-Design-Challenge/WebVisualizations/visualization-page2.html">Vis2</a>
+        <a class="nav-link" href="visualization-page2.html">Vis2</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/Web-Design-Challenge/WebVisualizations/visualization-page3.html">Vis3</a>
+        <a class="nav-link" href="visualization-page3.html">Vis3</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/Web-Design-Challenge/WebVisualizations/visualization-page4.html">Vis4</a>
+        <a class="nav-link" href="visualization-page4.html">Vis4</a>
       </li>
     </ul>
   </div>
@@ -52,5 +65,53 @@ A [landing page](#landing-page) containing:
     </h1>
   <!-- <h3 class="header">Welcome</h3> -->
 </head>
+
+<!-- Main section with header: -->
+  <main id="content" role="main">
+    <div class="pt-md-3 pb-md-4">
+      <p class="bd-lead">
+        <div class="p">
+          Weather temperatures visualizations based on the weather data of 500+ cities across the world of varying distance from the equator. 
+          OpenWeatherMap API used to create a representative model of weather across world cities.
+        </div>
+      </p>
+    </div>
+  </main>
+
+<!-- Container's view for the pages-->
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6 col-md-4 col-xl-3 mb-3">
+      <a href="#">
+        <img class="img-thumbnail mb-3" src="/Web-Design-Challenge/WebVisualizations/WeatherPy/Figures/Northern hemisphere - Cloudiness vs. Latitude.png"" alt="Album screenshot" width="960" height="600">
+        <h5 class="mb-1">Data set</h5>
+      </a>
+      <p class="text-muted">Text formatted data is used</p>
+    </div>
+
+    <div class="col-sm-6 col-md-4 col-xl-3 mb-3">
+      <a href="/docs/4.0/examples/pricing/">
+        <img class="img-thumbnail mb-3" src="/Web-Design-Challenge/WebVisualizations/WeatherPy/Figures/Northern hemisphere - Humidity vs. Latitude.png" alt="Pricing screenshot" width="960" height="600">
+        <h5 class="mb-1">Pricing</h5>
+      </a>
+      <p class="text-muted">Example pricing page built with Cards and featuring a custom header and footer.</p>
+    </div>
+
+    <div class="col-sm-6 col-md-4 col-xl-3 mb-3">
+      <a href="/docs/4.0/examples/checkout/">
+        <img class="img-thumbnail mb-3" src="/Web-Design-Challenge/WebVisualizations/WeatherPy/Figures/Southern hemisphere - Humidity vs. Latitude.png" alt="Checkout screenshot" width="960" height="600">
+        <h5 class="mb-1">Checkout</h5>
+      </a>
+      <p class="text-muted">Custom checkout form showing our form components and their validation features.</p>
+    </div>
+
+    <div class="col-sm-6 col-md-4 col-xl-3 mb-3">
+      <a href="/docs/4.0/examples/product/">
+        <img class="img-thumbnail mb-3" src="/Web-Design-Challenge/WebVisualizations/WeatherPy/Figures/Southern hemisphere - Wind Speed vs. Latitude.png" alt="Product screenshot" width="960" height="600">
+        <h5 class="mb-1">Product</h5>
+      </a>
+      <p class="text-muted">Lean product-focused marketing page with extensive grid and image work.</p>
+    </div>
+  </div
 
 </html>
