@@ -16,4 +16,18 @@ font-family: Roboto,"Helvetica Neue";
     padding-top: 20px;
 }
 
-.p {padding-left: 60px;}
+.p {
+    padding-left: 60px;
+    }
+
+.table_text {
+    color: darkslategray;
+    font-size: 15px;
+    padding-left: 80px;
+    padding-bottom: 40px;
+    
+}
+.horizontal_line {
+    border-bottom: 2px solid rgb(185, 211, 41);
+    color: rgb(185, 211, 41);
+}
