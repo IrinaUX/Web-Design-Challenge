@@ -1,33 +1,35 @@
 
 h1 {
-    /* background-color: rgb(12, 89, 84); */
     color: rgb(185, 211, 41);
     font-size: 30px;
-    padding-left: 80px;
     padding-top: 40px;
     padding-bottom: 20px;
-}
+} 
+
 
 /* font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"; */
 font-family: Roboto,"Helvetica Neue";
 
-.header {
-    padding-left: 60px;
+/* .header {
+    padding-left: 40px;
     padding-top: 20px;
-}
+} */
 
+/* 
 .p {
     padding-left: 60px;
-    }
+    } */
 
-.table_text {
+/* .table_text {
     color: darkslategray;
     font-size: 15px;
-    padding-left: 80px;
-    padding-bottom: 40px;
-    
-}
+} */
+
 .horizontal_line {
     border-bottom: 2px solid rgb(185, 211, 41);
-    color: rgb(185, 211, 41);
+    height: 20px;
+}
+
+.table_header {
+    font-size: 10px;
 }
