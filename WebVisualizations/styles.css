@@ -20,10 +20,10 @@ font-family: Roboto,"Helvetica Neue";
     padding-left: 60px;
     } */
 
-/* .table_text {
+.table_text {
     color: darkslategray;
     font-size: 15px;
-} */
+}
 
 .horizontal_line {
     border-bottom: 2px solid rgb(185, 211, 41);
