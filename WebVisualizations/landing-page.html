@@ -1,66 +1,38 @@
 <!DOCTYPE html>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-    
-<!-- """
-A [landing page](#landing-page) containing:
-  * An explanation of the project.
-  * Links to each visualizations page. 
-    There should be a sidebar containing preview images of each plot, 
-    and clicking an image should take the user to that visualization.
-""" -->
 
-<!-- Bring in bootstrap stylesheet -->
+<!-- CSS Stylesheets with Relative Paths -->
+<!-- """
+  * Displays a responsive table containing the data used in the visualizations.
+    * The table must be a bootstrap table component. [Hint](https://getbootstrap.com/docs/4.3/content/tables/#responsive-tables)
+    * The data must come from exporting the `.csv` file as HTML, or converting it to HTML. 
+    Try using a tool you already know, pandas. 
+    Pandas has a nifty method approprately called `to_html` that allows you to generate a HTML table from a pandas dataframe. 
+    See the documentation 
+    (https://pandas.pydata.org/pandas-docs/version/0.17.0/generated/pandas.DataFrame.to_html.html)""" -->
+
+<html lang="en-us">
+
+<!-- Bring in our bootstrap stylesheet -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-<!-- Styles.css-->
+<!-- styles.css-->
 <link rel="stylesheet" href="styles.css">
 
 <!-- Navigation bar - responsive -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="landing-page.html">Latitude</a>
-    <!-- Toggle for collapsed navigations pages -->
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-      </div>
-
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="my-menu nav navbar-nav navbar-right">
-            <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="MaxTemp.html">Max temperature</a></li>
-                  <li><a href="Humidity.html">Humidity</a></li>
-                  <li><a href="Cloudiness.html">Cloudiness</a></li>
-                  <li><a href="Wind_speed.html">Wind speed</a></li>
-                </ul>
-              </li>
-          <li class="comparison"><a href="Comparison.html">Comparison <span class="sr-only">(current)</span></a></li>
-          <li><a href="Data.html">Data</a></li>
-          
-        </ul>
-
-      </div><!-- /.navbar-collapse -->
-    </div>
-
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="landing-page.html">Home<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="data-page.html">Data set</a>
       </li>
       <li class="nav-item">
-        <!-- <a class="nav-link" href="/Web-Design-Challenge/WebVisualizations/comparisons-page.html">Comparison</a> -->
         <a class="nav-link" href="comparisons-page.html">Comparison</a>
       </li>
       <li class="nav-item">
@@ -80,32 +52,24 @@ A [landing page](#landing-page) containing:
 </nav>
 
 <!-- Section main page -->
-<head>
-  <title>Welcome</title>
-    <h1>Welcome
-      <link rel="stylesheet" href="styles.css">
-    </h1>
-  <!-- <h3 class="header">Welcome</h3> -->
-</head>
+<div class="white_background container">
+  <head>
+    <title>Data</title>
+      <h1>Latitude
+        <div class="horizontal_line"></div>
+      </h1>
+        <p class="table_text">Weather temperatures visualizations based on the weather data of 500+ cities across the world of varying distance from the equator. 
+          OpenWeatherMap API used to create a representative model of weather across world cities.</p>
+  </head>
 
-<!-- Main section with header: -->
-  <main id="content" role="main">
-    <div class="pt-md-3 pb-md-4">
-      <p class="bd-lead">
-        <div class="p">
-          Weather temperatures visualizations based on the weather data of 500+ cities across the world of varying distance from the equator. 
-          OpenWeatherMap API used to create a representative model of weather across world cities.
-        </div>
-      </p>
-    </div>
-  </main>
+
 
 <!-- Container's view for the pages-->
 <div class="container">
   <div class="row">
     <div class="col-sm-6 col-md-4 col-xl-3 mb-3">
       <a href="#">
-        <img class="img-thumbnail mb-3" src="/Web-Design-Challenge/WebVisualizations/WeatherPy/Figures/Northern hemisphere - Cloudiness vs. Latitude.png"" alt="Album screenshot" width="960" height="600">
+        <img class="img-thumbnail mb-3" src="/Web-Design-Challenge/WebVisualizations/WeatherPy/Figures/Northern hemisphere - Cloudiness vs. Latitude.png"" alt="Latitude vs. Cloudiness" width="960" height="600">
         <h5 class="mb-1">Data set</h5>
       </a>
       <p class="text-muted">Text formatted data is used</p>
@@ -134,6 +98,5 @@ A [landing page](#landing-page) containing:
       </a>
       <p class="text-muted">Lean product-focused marketing page with extensive grid and image work.</p>
     </div>
-  </div
-
+  </div>
 </html>
