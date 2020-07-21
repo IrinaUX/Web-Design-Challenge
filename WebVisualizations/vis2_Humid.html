@@ -53,18 +53,57 @@
     </nav>
     
   <!-- Section main page -->
-  <div class="white_background container"
+  <div class="white_background container">
     <head>
-      <title>Vis2 Humid</title>
+      <title>Humidity</title>
         <h1>Latitude vs. Humidity
           <div class="horizontal_line"></div>
         </h1>
-        <p class="table_text">In this time of the year.
-          In the Northern hemisphere, the average humidity is about 65%.
-          When looking at the plot, there is no clear correlation.
-          The humidity seems to be more evenly spread in the latitude range between 15 and 40 degrees.</p>
-        </h1>
-      <!-- <h3 class="header">Welcome</h3> -->
+        <div class="container">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="WeatherPy/Figures/Northern hemisphere - Humidity vs. Latitude.png" class="card-img">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Latitude vs. Humidity analysis</h5>
+                <p class="card-text">In this time of the year.
+                  In the Northern hemisphere, the average humidity is about 65%.
+                  When looking at the plot, there is no clear correlation.
+                  The humidity seems to be more evenly spread in the latitude range between 15 and 40 degrees. </p>
+                <p class="card-text"><small class="text-muted">Data Analytics and Visualizations</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
     </head>
-  </div>
+
+    <!-- Container's view for the pages -->
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6 col-md-4 col-xl-4 mb-4">
+        <a href="vis2_Humid.html">
+          <img class="img-thumbnail mb-3" src="WeatherPy/Figures/Northern hemisphere - Temperature vs. Latitude.png" alt="Temperature" width="960" height="600">
+          <h5 class="mb-1">vs. Temperature</h5>
+        </a>
+        <p class="text-muted">Check how to temperature changes as you approach to the equator</p>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-xl-4 mb-4">
+        <a href="vis3_Cloud.html">
+          <img class="img-thumbnail mb-3" src="WeatherPy/Figures/Northern hemisphere - Cloudiness vs. Latitude.png" alt="Comparisons" width="960" height="600">
+          <h5 class="mb-1">vs. Cloudiness</h5>
+        </a>
+        <p class="text-muted">Explore the relationships between the cities' latitudes and Cloudiness.</p>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-xl-4 mb-4">
+        <a href="vis4_Wind.html">
+          <img class="img-thumbnail mb-3" src="WeatherPy/Figures/Northern hemisphere - Wind Speed vs. Latitude.png" alt="Visualizations" width="960" height="600">
+          <h5 class="mb-1">vs. Wind Speed</h5>
+        </a>
+        <p class="text-muted">How does the wind speed change as you approach the equator?</p>
+      </div>
+    </div>
+  </div>  
 </html>
