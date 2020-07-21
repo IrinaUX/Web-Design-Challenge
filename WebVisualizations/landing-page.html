@@ -18,6 +18,8 @@
 <!-- styles.css-->
 <link rel="stylesheet" href="styles.css">
 
+<body>
+
 <!-- Navigation bar - responsive -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="landing-page.html">Latitude</a>
@@ -30,81 +32,88 @@
         <a class="nav-link" href="landing-page.html">Home<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="data-page.html">Data set</a>
+        <a class="nav-link" href="data-page.html">Data</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="comparisons-page.html">Comparison</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="visualization-page1.html">Vis1</a>
+        <a class="nav-link" href="visualizations.html">Visualizations</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="visualization-page2.html">Vis2</a>
+        <a class="nav-link" href="vis1_Temp.html">Max Temperature</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="visualization-page3.html">Vis3</a>
+        <a class="nav-link" href="vis2_Humid.html">Humidity</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="visualization-page4.html">Vis4</a>
+        <a class="nav-link" href="vis3_Cloud.html">Cloudiness</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="vis4_Wind.html">Wind Speed</a>
       </li>
     </ul>
   </div>
 </nav>
 
-<!-- Section main page -->
-<div class="white_background container">
-  <head>
-    <title>Data</title>
-      <h1>Latitude
-        <div class="horizontal_line"></div>
-      </h1>
-        <div class="container">
-          <div class="row no-gutters">
-            <div class="col-md-4">
-              <img src="/Web-Design-Challenge/WebVisualizations/WeatherPy/Figures/Northern hemisphere - Temperature vs. Latitude.png" class="card-img">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Temperature analysis</h5>
-                <p class="card-text">Weather temperatures visualizations based on the weather data of 500+ cities across the world of varying distance from the equator. 
-                  OpenWeatherMap API used to create a representative model of weather across world cities.</p>
-                <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. Latitude. Factors we looked at included:
-                  temperature, cloudiness, wind speed and humidity. This site provides the source data and visualizations created as part of the analysis, as well as 
-                  explanations and descriptions of any trends and correlation witnessed.</p>
-                <p class="card-text"><small class="text-muted">Data Analytics and Visualizations</small></p>
+
+
+    <!-- Section main page -->
+    <div class="white_background container">
+      <head>
+        <title>Data</title>
+          <h1>Latitude
+            <div class="horizontal_line"></div>
+          </h1>
+          <div class="container">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img src="WeatherPy/Figures/Northern hemisphere - Temperature vs. Latitude.png" class="card-img">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Temperature analysis</h5>
+                  <p class="card-text">Weather temperatures visualizations based on the weather data of 500+ cities across the world of varying distance from the equator. 
+                    OpenWeatherMap API used to create a representative model of weather across world cities.</p>
+                  <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. Latitude. Factors we looked at included:
+                    temperature, cloudiness, wind speed and humidity. This site provides the source data and visualizations created as part of the analysis, as well as 
+                    explanations and descriptions of any trends and correlation witnessed.</p>
+                  <p class="card-text"><small class="text-muted">Data Analytics and Visualizations</small></p>
+                </div>
               </div>
             </div>
           </div>
+      </head>
+
+
+
+    <!-- Container's view for the pages -->
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-md-4 col-xl-4 mb-4">
+          <a href="data-page.html">
+            <img class="img-thumbnail mb-3" src="WeatherPy/Figures/Data_page.png" alt="Data set page" width="960" height="600">
+            <h5 class="mb-1">Weather data</h5>
+          </a>
+          <p class="text-muted">Over 500 cities' temperature data was used to describe the temperature changes as you approach the equator.</p>
         </div>
-  </head>
 
+        <div class="col-sm-6 col-md-4 col-xl-4 mb-4">
+          <a href="comparisons-page.html">
+            <img class="img-thumbnail mb-3" src="WeatherPy/Figures/Northern hemisphere - Temperature vs. Latitude.png" alt="Comparisons" width="960" height="600">
+            <h5 class="mb-1">Comparison</h5>
+          </a>
+          <p class="text-muted">Explore the relationships between the cities' latitudes and various aspects of their weather.</p>
+        </div>
 
-
-<!-- Container's view for the pages-->
-<div class="container">
-  <div class="row">
-    <div class="col-sm-6 col-md-4 col-xl-4 mb-4">
-      <a href="data-page.html">
-        <img class="img-thumbnail mb-3" src="/Web-Design-Challenge/WebVisualizations/WeatherPy/Figures/Data_page.png" alt="Data set page" width="960" height="600">
-        <h5 class="mb-1">Weather data</h5>
-      </a>
-      <p class="text-muted">Over 500 cities' temperature data was used to describe the temperature changes as you approach the equator.</p>
-    </div>
-
-    <div class="col-sm-6 col-md-4 col-xl-4 mb-4">
-      <a href="/docs/4.0/examples/pricing/">
-        <img class="img-thumbnail mb-3" src="/Web-Design-Challenge/WebVisualizations/WeatherPy/Figures/Northern hemisphere - Temperature vs. Latitude.png" alt="Comparisons" width="960" height="600">
-        <h5 class="mb-1">Comparison</h5>
-      </a>
-      <p class="text-muted">Explore the relationships between the cities' latitudes and various aspects of their weather.</p>
-    </div>
-
-    <div class="col-sm-6 col-md-4 col-xl-4 mb-4">
-      <a href="/docs/4.0/examples/checkout/">
-        <img class="img-thumbnail mb-3" src="/Web-Design-Challenge/WebVisualizations/WeatherPy/Figures/Southern hemisphere - Humidity vs. Latitude.png" alt="Visualizations" width="960" height="600">
-        <h5 class="mb-1">Visualizations</h5>
-      </a>
-      <p class="text-muted">Latitude vs. X - Temperature, Cloudiness, Humidity and the Wind Speed.</p>
-    </div>
-  </div>
+        <div class="col-sm-6 col-md-4 col-xl-4 mb-4">
+          <a href="vis1_Temp.html">
+            <img class="img-thumbnail mb-3" src="WeatherPy/Figures/Southern hemisphere - Humidity vs. Latitude.png" alt="Visualizations" width="960" height="600">
+            <h5 class="mb-1">Visualizations</h5>
+          </a>
+          <p class="text-muted">Latitude vs. X - Temperature, Cloudiness, Humidity and the Wind Speed.</p>
+        </div>
+      </div>
+    </div>  
+  </body>
 </html>
