@@ -33,3 +33,7 @@ font-family: Roboto,"Helvetica Neue";
 .table_header {
     font-size: 10px;
 }
+
+.nav-link dropdown-toggle {
+    visibility: visible;
+}
