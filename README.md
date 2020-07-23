@@ -1,5 +1,7 @@
 # Web Design Homework - Web Visualization Dashboard (Latitude)
 
+My web project is live on github server - https://irinaux.github.io/Web-Design-Challenge/
+
 ## Latitude - Latitude Analysis Dashboard with Attitude
 
 Resources folder contains the cities.csv file.
@@ -7,7 +9,7 @@ Resources folder contains the cities.csv file.
 
 In building this dashboard, we'll create individual pages for each plot and a means by which we can navigate between them. These pages will contain the visualizations and their corresponding explanations. We'll also have a landing page, a page where we can see a comparison of all of the plots, and another page where we can view the data used to build them.
 
-### Website Requirements
+### Website Description
 
 For reference, see the ["Screenshots" section](#screenshots) below.
 

@@ -37,3 +37,7 @@ font-family: Roboto,"Helvetica Neue";
 .nav-link dropdown-toggle {
     visibility: visible;
 }
+
+.left {
+    float: left;
+    padding: 0 10px 0 0;}
