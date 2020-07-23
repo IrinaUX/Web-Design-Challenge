@@ -41,3 +41,9 @@ font-family: Roboto,"Helvetica Neue";
 .left {
     float: left;
     padding: 0 10px 0 0;}
+
+.archimage {
+    margin-right: 20px;
+    margin-bottom: 5px;
+    max-width: 128px;
+}
