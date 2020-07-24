@@ -47,3 +47,14 @@ font-family: Roboto,"Helvetica Neue";
     margin-bottom: 5px;
     max-width: 128px;
 }
+
+.app-card {
+    background-color: white;
+    margin: 40px;
+    overflow-wrap: break-word;
+    padding: 35px;
+    text-align: left;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 0%;
+}
